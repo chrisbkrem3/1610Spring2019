@@ -2,11 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dog : Animal
+public class Rat : Dog
 {
-    public string LegCount;
-
-
     // Start is called before the first frame update
     void Start()
     {
