@@ -5652,6 +5652,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Albert
+  Health: 100
+  Speed: 0
+  CanMove: 0
   FurColor: {r: 0.4433962, g: 0.30650616, b: 0.1986917, a: 0}
 --- !u!1 &1976685024
 GameObject:
@@ -5684,8 +5687,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Laika
+  Health: 0
+  Speed: 0
+  CanMove: 0
   FurColor: {r: 0.26415092, g: 0.20729038, b: 0.18565324, a: 0}
   LegCount: 4
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1976685024}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!212 &1976685026
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5724,7 +5746,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dcd89a69516614f74a695a56dae24430, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.2627451, g: 0.20784315, b: 0.18823531, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5878,8 +5900,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Hector
+  Health: 0
+  Speed: 0
+  CanMove: 0
   FurColor: {r: 0.5377358, g: 0.35171035, b: 0.25618547, a: 0}
   LegCount: 4
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!212 &2040424278
 SpriteRenderer:
   m_ObjectHideFlags: 0
