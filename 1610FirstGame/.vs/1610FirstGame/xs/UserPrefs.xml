@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{3CA3E31A-C561-7F2E-3FED-89DD26B4C842}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Dog.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DogColor.shader">
     <Files>
       <File FileName="Assets/RocketEvent.cs" Line="11" Column="6" />
       <File FileName="Assets/Animal.cs" Line="10" Column="25" />
       <File FileName="Assets/Dog.cs" Line="8" Column="29" />
       <File FileName="Assets/Rat.cs" Line="10" Column="33" />
       <File FileName="Assets/Mammal.cs" Line="5" Column="29" />
+      <File FileName="Assets/DogColor.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
