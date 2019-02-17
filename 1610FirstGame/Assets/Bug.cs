@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Animal : MonoBehaviour
+public class Bug : MonoBehaviour
 {
     public string Name;
     public FloatData Health;
     public FloatData Speed;
     public bool CanMove;
 
-    public Color FurColor;
+    public Color ExoskeletonColor;
+
+
 
     // Start is called before the first frame update
     void Start()

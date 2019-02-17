@@ -2,14 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Animal : MonoBehaviour
+public class Spider : Bug
 {
-    public string Name;
-    public FloatData Health;
-    public FloatData Speed;
-    public bool CanMove;
+    public int LegCount = 8;
+    public float Venom = 6f;
 
-    public Color FurColor;
 
     // Start is called before the first frame update
     void Start()
