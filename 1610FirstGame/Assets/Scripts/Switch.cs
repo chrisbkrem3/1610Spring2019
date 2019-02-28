@@ -3,17 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Conditional : MonoBehaviour
+public class Switch : MonoBehaviour
 {
-
     public UnityEvent OnEvent, OffEvent;
 
     public bool OnBool;
-    public int Number = 11;
-    public string Password;
 
 
-  
     void Update()
     {
         if (OnBool)
@@ -23,11 +19,6 @@ public class Conditional : MonoBehaviour
         else
         {
             OffEvent.Invoke();
-        }
-
-        if (Number >= 10)
-        {
-            print("Greater");
         }
     }
 }

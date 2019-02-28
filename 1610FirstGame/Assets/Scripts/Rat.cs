@@ -13,6 +13,6 @@ public class Rat : Dog
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(100,0,0);
+       
     }
 }
